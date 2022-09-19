@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzitas Rikas</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/d16105dfe7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section>
+        <div class="pizzaContainer">
+            <h1>Pizzitas de la casa ;)</h1>
+            <ol id="menuPizzas">
+                <li>Fugazzetta<i class="fa-solid fa-pizza-slice"></i></li>
+                <li>Napolitana<i class="fa-solid fa-pizza-slice"></i></li>
+                <li>Margarita<i class="fa-solid fa-pizza-slice"></i></li>
+                <li>Rucula<i class="fa-solid fa-pizza-slice"></i></li>
+                <li>Cuatro Quesos<i class="fa-solid fa-pizza-slice"></i></li>
+                <li>Hawaiana<i class="fa-solid fa-pizza-slice"></i></li>
+            </ol>
+        </div>
+        <div class="pizzaContainer formy" >
+            <div class="pizzaPic" id="pizzaPic"><img src="assets/pizza.png" alt="pizza pic"></div>
+            <h2 id="pizzaNombre"></h2>
+            <h4 id="pizzaPrecio"></h4>
+            <small id="error"></small>
+            <form id="formulario">
+                <input id="inputNumber" type="number" placeholder="Elija su favorita" required >
+                <button id="btn" type="submit">Pedir!</button>
+            </form>
+        </div>
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>
